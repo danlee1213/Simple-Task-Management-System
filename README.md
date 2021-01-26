@@ -21,3 +21,7 @@ Open terminal and then execute main.js
 ```
 node main.js
 ```
+Open web browser and access 
+```
+localhost:3000
+```
