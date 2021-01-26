@@ -17,4 +17,7 @@ Install packages
 ```
 npm install
 ```
-Open terminal
+Open terminal and then execute main.js
+```
+node main.js
+```
