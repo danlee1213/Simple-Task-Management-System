@@ -14,17 +14,22 @@ Web application using Restful API with CRUD operations. It would help to schedul
 * CRUD operations
 ### Install
 Install [node.js](https://nodejs.org/en/download/) first
+
 Install package modules:
 ```
 npm install
 ```
-Open terminal and then execute main.js:
+Open terminal and then execute app.js:
 ```
-node main.js
+node app.js
 ```
-For better management, install [PM2 module](https://www.npmjs.com/package/pm2):
+But for better management, install [PM2 module](https://www.npmjs.com/package/pm2):
 ```
 npm install pm2 -g
+```
+Using PM2 module to execute app.js (Ignore server to be shut down for any changes in "data" directory):
+```
+pm2 start app.js --watch --ignore-watch="data/*" --no-daemon
 ```
 Open web browser and access:
 ```
