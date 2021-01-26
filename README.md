@@ -12,3 +12,9 @@ Web application using Restful API with CRUD operations. It would help to schedul
 ### Client-server communication protocol
 * Restful API
 * CRUD operations
+### Install
+Install packages
+```
+npm install
+```
+Open terminal
