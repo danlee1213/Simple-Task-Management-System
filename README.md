@@ -13,15 +13,15 @@ Web application using Restful API with CRUD operations. It would help to schedul
 * Restful API
 * CRUD operations
 ### Install
-Install packages
+Install package modules:
 ```
 npm install
 ```
-Open terminal and then execute main.js
+Open terminal and then execute main.js:
 ```
 node main.js
 ```
-Open web browser and access 
+Open web browser and access:
 ```
 localhost:3000
 ```
