@@ -25,3 +25,5 @@ Open web browser and access:
 ```
 localhost:3000
 ```
+### Test
+Using [Postman](https://www.postman.com/) to test whether the API gets response from data in JSON format
