@@ -7,3 +7,8 @@ Web application using Restful API with CRUD operations. It would help to schedul
 ## Tech Stack
 ### Front-End
 * HTML
+### Back-End
+* Node.js (Express.js as a framework)
+### Client-server communication protocol
+* Restful API
+* CRUD operations
