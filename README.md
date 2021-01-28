@@ -12,9 +12,15 @@ Web application using Restful API with CRUD operations. It would help to schedul
 ### Client-server communication protocol
 * Restful API
 * CRUD operations
-### Install
-Install [node.js](https://nodejs.org/en/download/) first
+### Install (Node.js) 
+For both Windows and Mac os:
 
+Install [node.js](https://nodejs.org/en/download/) first,
+
+Open terminal and change directory to download path:
+```
+cd <download-path>
+```
 Install package modules:
 ```
 npm install
@@ -35,5 +41,6 @@ Open web browser and access:
 ```
 localhost:3000
 ```
+### Install (Django)
 ### Test
 Using [Postman](https://www.postman.com/) to test whether the API gets response from data in JSON format
