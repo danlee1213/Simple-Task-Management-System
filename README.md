@@ -49,7 +49,7 @@ localhost:3000
 ### Back-End
 * Django (Using Django REST Framework as a framework)
 ### Install
-For windows:
+**For windows:**
 
 Download all files in the folder 'Django' in this repo,
 
