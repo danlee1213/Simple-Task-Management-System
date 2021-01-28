@@ -8,7 +8,7 @@ Web application using Restful API with CRUD operations. It would help to schedul
 ### Front-End
 * HTML
 ### Back-End
-* Node.js (Express.js as a framework)
+* Node.js (Using Express.js as a framework)
 ### Client-server communication protocol
 * Restful API
 * CRUD operations
@@ -43,6 +43,13 @@ Open web browser and access:
 ```
 localhost:3000
 ```
-### Install (Django)
+## Tech Stack (Django)
+### Front-End
+* No frontend, only Rest API server
+### Back-End
+* Django (Using Django REST Framework as a framework)
+### Install
+For windows:
+
 ### Test
 Using [Postman](https://www.postman.com/) to test whether the API gets response from data in JSON format
