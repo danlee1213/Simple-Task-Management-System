@@ -4,7 +4,7 @@ Simple Task Management Web using Restful API
 ## Description
 Web application using Restful API with CRUD operations. It would help to schedule, manage tasks in a real time basis.
 
-## Tech Stack
+## Tech Stack (Nodejs)
 ### Front-End
 * HTML
 ### Back-End
@@ -12,8 +12,10 @@ Web application using Restful API with CRUD operations. It would help to schedul
 ### Client-server communication protocol
 * Restful API
 * CRUD operations
-### Install (Node.js) 
+### Install 
 For both Windows and Mac os:
+
+Download all files in the folder 'Nodejs' in this repo,
 
 Install [node.js](https://nodejs.org/en/download/) first,
 
