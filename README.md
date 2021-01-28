@@ -4,16 +4,18 @@ Simple Task Management Web using Restful API
 ## Description
 Web application using Restful API with CRUD operations. It would help to schedule, manage tasks in a real time basis.
 
-## Tech Stack
+## Tech Stack (Nodejs)
 ### Front-End
 * HTML
 ### Back-End
-* Node.js (Express.js as a framework)
+* Node.js (Using Express.js as a framework)
 ### Client-server communication protocol
 * Restful API
 * CRUD operations
-### Install (Node.js) 
+### Install 
 For both Windows and Mac os:
+
+Download all files in the folder 'Nodejs' in this repo,
 
 Install [node.js](https://nodejs.org/en/download/) first,
 
@@ -41,6 +43,57 @@ Open web browser and access:
 ```
 localhost:3000
 ```
-### Install (Django)
+## Tech Stack (Django)
+### Front-End
+* No frontend, only Rest API server
+### Back-End
+* Django (Using Django REST Framework as a framework)
+### Install
+For windows:
+
+Download all files in the folder 'Django' in this repo,
+
+Install [python 3](https://www.python.org/downloads/),
+
+Open command prompt, execute get-pip.py:
+```
+python get-pip.py
+```
+Install virtualenv:
+```
+pip install virtualenv
+```
+Navigate to your project:
+```
+cd <project-folder>
+```
+Within the project folder, make virtualenv:
+```
+virtualenv myenv
+```
+Activate the virtualenv:
+```
+<project-folder>\myenv\Scripts\activate
+```
+If you successfully access to the virtualenv (myenv), install Django:
+```
+pip install django
+```
+Install Django REST Framework as well:
+```
+pip install djangorestframework
+```
+Put downloaded 'Django' folder in your project folder then navigate to 'Rest API' folder inside 'Django' folder:
+```
+cd <project-folder>/Django/Rest API
+```
+Run Django server:
+```
+python manage.py runserver
+```
+Open web browser and access:
+```
+http://127.0.0.1:8000/viewset/task/
+```
 ### Test
 Using [Postman](https://www.postman.com/) to test whether the API gets response from data in JSON format
