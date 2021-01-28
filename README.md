@@ -13,7 +13,7 @@ Web application using Restful API with CRUD operations. It would help to schedul
 * Restful API
 * CRUD operations
 ### Install 
-For both Windows and Mac os:
+**For both Windows and Mac OS:**
 
 Download all files in the folder 'Nodejs' in this repo,
 
@@ -95,5 +95,47 @@ Open web browser and access:
 ```
 http://127.0.0.1:8000/viewset/task/
 ```
+
+**For Mac OS:**
+
+Download all files in the folder 'Django' in this repo,
+
+Open terminal and install python 3 using [Homebrew](https://brew.sh/#install):
+```
+brew install python3
+```
+Install virtualenv:
+```
+pip3 install virtualenv
+```
+Make virtualenv:
+```
+virtualenv -p python3 <desired-path>
+```
+Activate the virtualenv:
+```
+<desired-path>/bin/source ./activate
+```
+If you successfully access to the virtualenv (desired-path), install Django:
+```
+pip install django
+```
+Install Django REST Framework as well:
+```
+pip install djangorestframework
+```
+Put downloaded 'Django' folder in your project folder then navigate to 'Rest API' folder inside 'Django' folder:
+```
+cd <desired-path>/Django/Rest API
+```
+Run Django server:
+```
+python manage.py runserver
+```
+Open web browser and access:
+```
+http://127.0.0.1:8000/viewset/task/
+```
+
 ### Test
 Using [Postman](https://www.postman.com/) to test whether the API gets response from data in JSON format
