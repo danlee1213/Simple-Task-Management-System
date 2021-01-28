@@ -138,4 +138,15 @@ http://127.0.0.1:8000/viewset/task/
 ```
 
 ### Test
+**Node.js**:
 Using [Postman](https://www.postman.com/) to test whether the API gets response from data in JSON format
+
+**Django**:
+Django rest framework provides itself to test GET / POST / PUT / DELETE operations
+
+For GET / POST:
+http://127.0.0.1:8000/viewset/task/
+
+For GET / PUT / DELETE:
+http://127.0.0.1:8000/viewset/task/9/ (Put id number after 'task/')
+
