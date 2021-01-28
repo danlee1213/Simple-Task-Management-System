@@ -51,5 +51,49 @@ localhost:3000
 ### Install
 For windows:
 
+Download all files in the folder 'Django' in this repo,
+
+Install [python 3](https://www.python.org/downloads/),
+
+Open command prompt, execute get-pip.py:
+```
+python get-pip.py
+```
+Install virtualenv:
+```
+pip install virtualenv
+```
+Navigate to your project:
+```
+cd <project-folder>
+```
+Within the project folder, make virtualenv:
+```
+virtualenv myenv
+```
+Activate the virtualenv:
+```
+<project-folder>\myenv\Scripts\activate
+```
+If you successfully access to the virtualenv (myenv), install Django:
+```
+pip install django
+```
+Install Django REST Framework as well:
+```
+pip install djangorestframework
+```
+Put downloaded 'Django' folder in your project folder then navigate to 'Rest API' folder inside 'Django' folder:
+```
+cd <project-folder>/Django/Rest API
+```
+Run Django server:
+```
+python manage.py runserver
+```
+Open web browser and access:
+```
+http://127.0.0.1:8000/viewset/task/
+```
 ### Test
 Using [Postman](https://www.postman.com/) to test whether the API gets response from data in JSON format
